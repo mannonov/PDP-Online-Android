@@ -28,4 +28,19 @@ class Lessons {
 
     }
 
+    fun calculateDiameterAndRadius(a: Any): Map<String, Any> {
+
+        return hashMapOf<String, Any>().apply {
+
+            val area: Double = a.toString().toDouble()
+            val r = Math.sqrt(7 * area / 22)
+
+            put("Diameter", r * 2)
+            put("Radius", r)
+
+        }
+
+
+    }
+
 }

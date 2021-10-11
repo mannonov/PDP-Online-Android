@@ -6,7 +6,9 @@ fun main() {
 
 //    println(lessons.squarePerimeterArea(15))
 
-    lessons.changeTwoVariableValue(10, 20)
+//    lessons.changeTwoVariableValue(10, 20)
+
+//    println(lessons.calculateDiameterAndRadius(154))
 
 
 }
