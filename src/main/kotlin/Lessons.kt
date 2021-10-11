@@ -15,4 +15,17 @@ class Lessons {
 
     }
 
+    fun changeTwoVariableValue(a: Int, b: Int) {
+
+        var a = a
+        var b = b
+
+        a *= b
+        b = a / b
+        a /= b
+
+        println("a = $a , b = $b")
+
+    }
+
 }
