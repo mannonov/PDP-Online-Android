@@ -10,5 +10,7 @@ fun main() {
 
 //    println(lessons.calculateDiameterAndRadius(154))
 
+//    println(lessons.calculateTwoCarDistance(45, 90, 450, 4))
+
 
 }

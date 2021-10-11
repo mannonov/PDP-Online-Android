@@ -43,4 +43,10 @@ class Lessons {
 
     }
 
+    fun calculateTwoCarDistance(v1: Int, v2: Int, s: Int, t: Int): Int {
+
+        return (v1 * t) + (v2 * t) + s
+
+    }
+
 }
