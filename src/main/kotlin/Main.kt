@@ -10,7 +10,9 @@ fun main() {
 
 //    println(lessons.calculateDiameterAndRadius(154))
 
-//    println(lessons.calculateTwoCarDistance(45, 90, 450, 4))
+//    println(lessons.calculateTwoCarsDistance(45, 90, 450, 4))
+
+    println(lessons.convertDegreeToRadian(180.0))
 
 
 }
