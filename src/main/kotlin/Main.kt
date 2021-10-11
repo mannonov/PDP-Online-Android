@@ -14,6 +14,9 @@ fun main() {
 
 //    println(lessons.convertDegreeToRadian(180.0))
 
-    println(lessons.replaceNumbers(456))
+//    println(lessons.replaceNumbers(456))
+
+//    println(lessons.howManySeconds())
+
 
 }

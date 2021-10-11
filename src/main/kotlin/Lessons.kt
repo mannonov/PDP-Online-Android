@@ -1,3 +1,5 @@
+import java.util.*
+
 class Lessons {
 
     fun avarage(a: Int, b: Int, c: Int): Int {
@@ -88,6 +90,17 @@ class Lessons {
         return numberClone
 
         //Tired of writing the same code, I came up with a new way
+    }
+
+    fun howManySeconds() : Int{
+
+        val cal = Calendar.getInstance()
+        val hour = cal.get(Calendar.HOUR_OF_DAY)
+        val minute = cal.get(Calendar.MINUTE)
+        val second = cal.get(Calendar.SECOND)
+
+        return (hour * 3600) + (minute * 60) + second
+
     }
 
 
