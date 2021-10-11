@@ -12,7 +12,8 @@ fun main() {
 
 //    println(lessons.calculateTwoCarsDistance(45, 90, 450, 4))
 
-    println(lessons.convertDegreeToRadian(180.0))
+//    println(lessons.convertDegreeToRadian(180.0))
 
+    println(lessons.replaceNumbers(456))
 
 }

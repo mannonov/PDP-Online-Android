@@ -57,4 +57,38 @@ class Lessons {
 
     }
 
+    fun replaceNumbers(number: Int): Int {
+
+        var first = 0
+        var second = 0
+        var numberClone = number
+
+        loop@ while (true) {
+
+            if (numberClone in 999 downTo 100) {
+
+                first = numberClone % 10
+                numberClone /= 10
+                println(first)
+
+            } else if (numberClone in 100 downTo 10) {
+
+                second = numberClone % 10
+                numberClone /= 10
+                println(second)
+
+            } else {
+                numberClone = (numberClone * 10) + first
+                numberClone = (numberClone * 10) + second
+                break@loop
+            }
+
+
+        }
+        return numberClone
+
+        //Tired of writing the same code, I came up with a new way
+    }
+
+
 }
