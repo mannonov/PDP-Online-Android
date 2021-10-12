@@ -120,4 +120,14 @@ class Lessons {
     }
 
 
+    fun printLastTwoLetter(text: String = "Jahongir") {
+
+        // String = charArray()
+
+        for (i in 0..3) {
+            println("last two letter = ${text.get(text.length - 2)}${text.get(text.length - 1)}")
+        }
+
+    }
+
 }
