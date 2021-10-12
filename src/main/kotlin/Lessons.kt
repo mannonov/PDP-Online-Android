@@ -146,5 +146,11 @@ class Lessons {
 
     }
 
+    fun removeFirstAndLastLetter(text: String = "Jahongir"): String {
+
+        return text.substring(1, text.length - 1)
+
+    }
+
 
 }

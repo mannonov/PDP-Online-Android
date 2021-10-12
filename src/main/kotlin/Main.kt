@@ -26,7 +26,8 @@ fun main() {
 
 //    lessons.printLastTwoLetter()
 
-    println(lessons.changeLettersPlace())
+//    println(lessons.changeLettersPlace())
 
+    println(lessons.removeFirstAndLastLetter())
 
 }
