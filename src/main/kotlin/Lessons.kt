@@ -172,5 +172,11 @@ class Lessons {
 
     }
 
+    fun printChosenLetters(text: String, index: Int): String {
+
+        return if (index > text.length - 1) text else text.substring(index, text.length)
+
+    }
+
 
 }

@@ -32,5 +32,9 @@ fun main() {
 
 //    println(lessons.printMiddleLetters())
 
-    println(lessons.changeTwoLettersPlace())
+//    println(lessons.changeTwoLettersPlace())
+
+    println(lessons.printChosenLetters("Jaxadev", 2))
+
 }
+
