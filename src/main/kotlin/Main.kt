@@ -18,7 +18,9 @@ fun main() {
 
 //    println(lessons.howManySeconds())
 
-    println(lessons.findTheCubeRoot(125.0))
+//    println(lessons.findTheCubeRoot(125.0))
+
+    println(lessons.findTriangleHypotenuse(25.0, 35.0))
 
 
 }

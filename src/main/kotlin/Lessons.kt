@@ -109,5 +109,10 @@ class Lessons {
 
     }
 
+    fun findTriangleHypotenuse(adjacent: Double, opposite: Double): Double {
+
+        return Math.sqrt((adjacent * adjacent) + (opposite * opposite))
+
+    }
 
 }
