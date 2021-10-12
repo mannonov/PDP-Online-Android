@@ -160,5 +160,17 @@ class Lessons {
 
     }
 
+    fun changeTwoLettersPlace(text: String = "Jahongir"): CharArray {
+
+        return text.toCharArray().apply {
+
+            var chars = charArrayOf(get(0), get(size - 1))
+            set(0, chars[1])
+            set(size - 1, chars[0])
+
+        }
+
+    }
+
 
 }

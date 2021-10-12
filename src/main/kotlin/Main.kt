@@ -30,6 +30,7 @@ fun main() {
 
 //    println(lessons.removeFirstAndLastLetter())
 
-    println(lessons.printMiddleLetters())
+//    println(lessons.printMiddleLetters())
 
+    println(lessons.changeTwoLettersPlace())
 }
