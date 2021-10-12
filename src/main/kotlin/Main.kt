@@ -20,7 +20,8 @@ fun main() {
 
 //    println(lessons.findTheCubeRoot(125.0))
 
-    println(lessons.findTriangleHypotenuse(25.0, 35.0))
+//    println(lessons.findTriangleHypotenuse(25.0, 35.0))
 
+    println(lessons.biggestOfThree(4, 5, 6))
 
 }

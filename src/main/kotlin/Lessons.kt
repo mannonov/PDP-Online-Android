@@ -115,4 +115,9 @@ class Lessons {
 
     }
 
+    fun biggestOfThree(x: Int, y: Int, z: Int): Int {
+        return if (z > (if (x > y) x else y)) z else if (x > y) x else y
+    }
+
+
 }
