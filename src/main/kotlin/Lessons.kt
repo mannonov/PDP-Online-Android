@@ -1,3 +1,4 @@
+import java.lang.StringBuilder
 import java.util.*
 
 class Lessons {
@@ -116,7 +117,9 @@ class Lessons {
     }
 
     fun biggestOfThree(x: Int, y: Int, z: Int): Int {
+
         return if (z > (if (x > y) x else y)) z else if (x > y) x else y
+
     }
 
 
@@ -125,9 +128,23 @@ class Lessons {
         // String = charArray()
 
         for (i in 0..3) {
-            println("last two letter = ${text.get(text.length - 2)}${text.get(text.length - 1)}")
+            println("last two letter = ${text[text.length - 2]}${text[text.length - 1]}")
         }
 
     }
+
+    fun changeLettersPlace(text: String = "Kotlin"): StringBuilder {
+
+        return StringBuilder().apply {
+
+            append(text[text.length - 2])
+            append(text[text.length - 1])
+            append(text.substring(0, text.length - 2))
+
+
+        }
+
+    }
+
 
 }
