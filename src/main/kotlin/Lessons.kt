@@ -152,5 +152,13 @@ class Lessons {
 
     }
 
+    fun printMiddleLetters(text: String = "Jahongir"): String {
+
+        val number: Int = (text.length - 1) / 2
+
+        return text.substring(number, number + 2)
+
+    }
+
 
 }

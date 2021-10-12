@@ -28,6 +28,8 @@ fun main() {
 
 //    println(lessons.changeLettersPlace())
 
-    println(lessons.removeFirstAndLastLetter())
+//    println(lessons.removeFirstAndLastLetter())
+
+    println(lessons.printMiddleLetters())
 
 }
