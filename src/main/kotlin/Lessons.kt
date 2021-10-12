@@ -92,7 +92,7 @@ class Lessons {
         //Tired of writing the same code, I came up with a new way
     }
 
-    fun howManySeconds() : Int{
+    fun howManySeconds(): Int {
 
         val cal = Calendar.getInstance()
         val hour = cal.get(Calendar.HOUR_OF_DAY)
@@ -100,6 +100,12 @@ class Lessons {
         val second = cal.get(Calendar.SECOND)
 
         return (hour * 3600) + (minute * 60) + second
+
+    }
+
+    fun findTheCubeRoot(number: Double): Double {
+
+        return Math.cbrt(number)
 
     }
 

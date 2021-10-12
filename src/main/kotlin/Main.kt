@@ -18,5 +18,7 @@ fun main() {
 
 //    println(lessons.howManySeconds())
 
+    println(lessons.findTheCubeRoot(125.0))
+
 
 }
