@@ -1,7 +1,9 @@
+package sanjar_suvonov
+
 import java.lang.StringBuilder
 import java.util.*
 
-class Lessons {
+class Tasks2 {
 
     fun avarage(a: Int, b: Int, c: Int): Int {
 
@@ -164,7 +166,7 @@ class Lessons {
 
         return text.toCharArray().apply {
 
-            var chars = charArrayOf(get(0), get(size - 1))
+            var chars = charArrayOf(this[0], this[size - 1])
             set(0, chars[1])
             set(size - 1, chars[0])
 

@@ -1,40 +1,55 @@
+import khurshidebk_kurbanov.Tasks1
+import sanjar_suvonov.Tasks2
+
 fun main() {
 
-    val lessons = Lessons()
+    val tasks2 = Tasks2()
 
-//    println(lessons.avarage(4, 4, 4))
+    val tasks1 = Tasks1()
 
-//    println(lessons.squarePerimeterArea(15))
+    /*
+    Sanjar Suvonov
+     */
 
-//    lessons.changeTwoVariableValue(10, 20)
+//    println(tasks2.avarage(4, 4, 4))
+//
+//    println(tasks2.squarePerimeterArea(15))
+//
+//    tasks2.changeTwoVariableValue(10, 20)
+//
+//    println(tasks2.calculateDiameterAndRadius(154))
+//
+//    println(tasks2.calculateTwoCarsDistance(45, 90, 450, 4))
+//
+//    println(tasks2.convertDegreeToRadian(180.0))
+//
+//    println(tasks2.replaceNumbers(456))
+//
+//    println(tasks2.howManySeconds())
+//
+//    println(tasks2.findTheCubeRoot(125.0))
+//
+//    println(tasks2.findTriangleHypotenuse(25.0, 35.0))
+//
+//    println(tasks2.biggestOfThree(4, 5, 6))
+//
+//    tasks2.printLastTwoLetter()
+//
+//    println(tasks2.changeLettersPlace())
+//
+//    println(tasks2.removeFirstAndLastLetter())
+//
+//    println(tasks2.printMiddleLetters())
+//
+//    println(tasks2.changeTwoLettersPlace())
+//
+//    println(tasks2.printChosenLetters("Jaxadev", 2))
 
-//    println(lessons.calculateDiameterAndRadius(154))
+/*
+Khurshidbek Kurbanov
+ */
 
-//    println(lessons.calculateTwoCarsDistance(45, 90, 450, 4))
-
-//    println(lessons.convertDegreeToRadian(180.0))
-
-//    println(lessons.replaceNumbers(456))
-
-//    println(lessons.howManySeconds())
-
-//    println(lessons.findTheCubeRoot(125.0))
-
-//    println(lessons.findTriangleHypotenuse(25.0, 35.0))
-
-//    println(lessons.biggestOfThree(4, 5, 6))
-
-//    lessons.printLastTwoLetter()
-
-//    println(lessons.changeLettersPlace())
-
-//    println(lessons.removeFirstAndLastLetter())
-
-//    println(lessons.printMiddleLetters())
-
-//    println(lessons.changeTwoLettersPlace())
-
-    println(lessons.printChosenLetters("Jaxadev", 2))
+    println(tasks1.isAnagrams("anagram","nagaram"))
 
 }
 
