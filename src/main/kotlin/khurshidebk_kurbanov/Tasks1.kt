@@ -22,4 +22,31 @@ class Tasks1 {
         return sortedStr1 == sortedStr2
 
     }
+
+    fun armstrongNumber(number: Int): Boolean {
+
+        var result = 0
+        var indexResult: Int
+
+        number.toString().toCharArray().apply {
+
+            for (c in this) {
+
+                indexResult = Integer.parseInt(c.toString())
+
+                for (i in 0 until this.size -1) {
+
+                    indexResult *= Integer.parseInt(c.toString())
+                    println(indexResult)
+
+                }
+
+                result += indexResult
+
+            }
+
+        }
+
+        return result == number
+    }
 }

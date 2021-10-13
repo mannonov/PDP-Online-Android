@@ -49,7 +49,9 @@ fun main() {
 Khurshidbek Kurbanov
  */
 
-    println(tasks1.isAnagrams("anagram","nagaram"))
+//    println(tasks1.isAnagrams("anagram","nagaram"))
+
+    println(tasks1.armstrongNumber(153))
 
 }
 
